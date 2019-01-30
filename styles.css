@@ -36,3 +36,9 @@ input + p {
   opacity: 0;
   height: 0;
 }
+
+input.invalid + p {
+  opacity: 1;
+  height: auto;
+  margin-bottom: 20px;
+}
