@@ -25,3 +25,14 @@ input{
 .valid {
   border: 3px solid green;
 }
+
+.invalid {
+  border: 3px solid orange;
+}
+
+input + p {
+  font-weight: bold;
+  color: orange;
+  opacity: 0;
+  height: 0;
+}
